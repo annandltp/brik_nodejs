@@ -1,0 +1,15 @@
+Running Application
+1. Setup mysql database
+2. Backend
+    - run "npm i"
+    - run "npm run dev"
+    - setting knexfile.js
+3. Frontend
+    - run "npm i"
+    - run "npm run serve"
+4. migrate
+    - npx knex migrate:latest
+5. seed 
+    - hit the end point http://localhost:8000/api/seed with the post method
+
+    
